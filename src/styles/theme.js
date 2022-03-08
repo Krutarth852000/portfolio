@@ -1,4 +1,3 @@
-import { createGlobalStyle } from "styled-components";
 
 export const lightTheme={
     body: "#e1e8d8",

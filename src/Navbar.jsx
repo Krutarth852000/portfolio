@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "./styles/navbar.css";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
@@ -21,7 +21,7 @@ import styled, { ThemeProvider } from "styled-components";
 import kp from "./components/IMG_4782.jpg";
 import project1 from "./components/project1.png";
 import Typed from "react-typed";
-import { darkTheme, GlobalStyles, lightTheme } from "./styles/theme";
+import { darkTheme, lightTheme } from "./styles/theme";
 import Particles from "react-particles-js";
 
 const Styled = styled.div`
