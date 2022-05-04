@@ -73,8 +73,6 @@ function Navbar() {
           },
         }}
       />
-
-      {/* <GlobalStyles/>  */}
       <Styled>
         <div className="main-container">
           <Stylednav
@@ -147,11 +145,11 @@ function Navbar() {
             </div>
           </Stylednav>
           <div
-            data-bs-spy="scroll"
-            data-bs-target="#navbar-example2"
-            data-bs-offset="0"
-            className="scrollspy-example scrollbar"
-            tabindex="0"
+            // data-bs-spy="scroll"
+            // data-bs-target="#navbar-example2"
+            // data-bs-offset="0"
+            className=" scrollbar"
+            // tabindex="0"
           >
             <div className="section1" id="home">
               <br />
@@ -274,7 +272,6 @@ function Navbar() {
                     <li>
                       basic funtionalities
                       <ul>
-                        
                         <li className="email">
                           A reactive user interface to allow customers to surf
                           through mobiles online.
